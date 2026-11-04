@@ -1,0 +1,46 @@
+---
+layout: default
+title: Write to me
+description: Begin the Learned Beauty mentorship by answering three short questions by email or WhatsApp.
+---
+{% capture mailbody %}Hello Henrik,
+
+1. What draws you to this work at this point in your life?
+
+
+2. Which part of your life would you most like to refine: your presence, your style, your habits or your relationships?
+
+
+3. A year from now, what would being more at ease in your femininity look like for you?
+
+
+Preferred language for the sessions:
+{% endcapture %}
+<section class="page-head">
+  <div class="wrap split" style="align-items:start">
+    <div class="prose">
+      <h1>Write to me</h1>
+      <p class="lead">To begin, answer these three questions in your own words. A few sentences for each is enough.</p>
+      <ol class="questions">
+        <li>What draws you to this work at this point in your life?</li>
+        <li>Which part of your life would you most like to refine: your presence, your style, your habits or your relationships?</li>
+        <li>A year from now, what would being more at ease in your femininity look like for you?</li>
+      </ol>
+      <p>Send your answers by email or WhatsApp, and tell me which language you would prefer for the sessions. I read every message myself and reply within a few days. If it looks like a fit, we start with {{ site.data.settings.free_sessions }} free sessions.</p>
+      <div class="contact-ways">
+        <a href="mailto:{{ site.data.settings.email }}?subject={{ "Learned Beauty: my answers" | url_encode | replace: "+", "%20" }}&amp;body={{ mailbody | url_encode | replace: "+", "%20" }}">
+          <strong>By email</strong>
+          <span>{{ site.data.settings.email }}</span>
+        </a>
+        <a href="https://wa.me/{{ site.data.settings.whatsapp_number }}">
+          <strong>By WhatsApp</strong>
+          <span>{{ site.data.settings.whatsapp_display }}</span>
+        </a>
+      </div>
+      <p class="muted" style="margin-top:1.5rem">Your message stays between us.</p>
+    </div>
+    <figure class="portrait">
+      <img src="/assets/images/verity-portrait.jpg" alt="A woman in a black and gold qipao, smiling" width="896" height="1200">
+    </figure>
+  </div>
+</section>

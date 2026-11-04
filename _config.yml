@@ -1,0 +1,12 @@
+# Jekyll settings. Contact details and prices are in _data/settings.yml.
+title: Learned Beauty
+tagline: Holistic Beauty & Well-Being
+description: Private online mentorship with Henrik Hillerström. A masculine perspective on feminine refinement, for women who wish to feel more at ease in their femininity.
+url: https://www.learnedbeauty.com
+
+google_site_verification: _MnF8oIU04wuhvwzV9n9_GuEzWZU7PoPh8VNWt2vI_c
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md

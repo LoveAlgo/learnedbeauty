@@ -1,0 +1,33 @@
+media:
+  input: assets/images
+  output: /assets/images
+content:
+  - name: settings
+    label: Contact and prices
+    type: file
+    path: _data/settings.yml
+    format: yaml
+    fields:
+      - { name: email, label: Email address, type: string }
+      - { name: whatsapp_display, label: WhatsApp number (as shown), type: string }
+      - { name: whatsapp_number, label: WhatsApp number (digits only, with country code), type: string }
+      - { name: instagram, label: Instagram link, type: string }
+      - { name: facebook, label: Facebook link, type: string }
+      - { name: location, label: Where you are based, type: string }
+      - { name: languages, label: Session languages, type: string }
+      - { name: free_sessions, label: Number of free sessions (in words), type: string }
+      - { name: fee, label: Mentorship fee, type: string }
+      - { name: typical_sessions, label: Typical number of sessions, type: string }
+  - name: about
+    label: Philosophy page
+    type: file
+    path: about/index.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: page }
+      - { name: title, label: Title in browser tab, type: string }
+      - { name: heading, label: Heading, type: string }
+      - { name: intro, label: Introduction, type: text }
+      - { name: description, label: Search engine description, type: text }
+      - { name: image, label: Image, type: image }
+      - { name: image_alt, label: Image description, type: string }
+      - { name: body, label: Text, type: rich-text }
