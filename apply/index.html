@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Write to me
-description: Begin the Learned Beauty mentorship by answering three short questions by email or WhatsApp.
+title: Application for private mentorship
+description: Apply for the Learned Beauty private mentorship by answering three reflection questions by email or WhatsApp.
 ---
 {% capture mailbody %}Hello Henrik,
 
-1. What draws you to this work at this point in your life?
+1. What draws you to Learned Beauty at this point in your life?
 
 
-2. Which part of your life would you most like to refine: your presence, your style, your habits or your relationships?
+2. What habits, patterns, or areas of your life do you sense may need refinement or change?
 
 
-3. A year from now, what would being more at ease in your femininity look like for you?
+3. What is your biggest wish for yourself and for the world?
 
 
 Preferred language for the sessions:
@@ -19,16 +19,19 @@ Preferred language for the sessions:
 <section class="page-head">
   <div class="wrap split" style="align-items:start">
     <div class="prose">
-      <h1>Write to me</h1>
-      <p class="lead">To begin, answer these three questions in your own words. A few sentences for each is enough.</p>
+      <h1>Application for Private Mentorship</h1>
+      <p>This application is an invitation to pause and reflect.</p>
+      <p>Private work at Learned Beauty is limited, deliberate, and oriented toward women who wish to cultivate femininity through understanding rather than approval-seeking.</p>
+      <p>The questions below are not a test, and there are no “correct” answers. They exist to help determine whether this work is a genuine mutual fit.</p>
+      <p>Please answer honestly, in your own words. Depth matters more than length.</p>
       <ol class="questions">
-        <li>What draws you to this work at this point in your life?</li>
-        <li>Which part of your life would you most like to refine: your presence, your style, your habits or your relationships?</li>
-        <li>A year from now, what would being more at ease in your femininity look like for you?</li>
+        <li>What draws you to Learned Beauty at this point in your life?</li>
+        <li>What habits, patterns, or areas of your life do you sense may need refinement or change?</li>
+        <li>What is your biggest wish for yourself and for the world?</li>
       </ol>
-      <p>Send your answers by email or WhatsApp, and tell me which language you would prefer for the sessions. I read every message myself and reply within a few days. If it looks like a fit, we start with {{ site.data.settings.free_sessions }} free sessions.</p>
+      <p>Send your answers by email or WhatsApp, and let me know which language you would prefer for the sessions.</p>
       <div class="contact-ways">
-        <a href="mailto:{{ site.data.settings.email }}?subject={{ "Learned Beauty: my answers" | url_encode | replace: "+", "%20" }}&amp;body={{ mailbody | url_encode | replace: "+", "%20" }}">
+        <a href="mailto:{{ site.data.settings.email }}?subject={{ "Application for private mentorship" | url_encode | replace: "+", "%20" }}&amp;body={{ mailbody | url_encode | replace: "+", "%20" }}">
           <strong>By email</strong>
           <span>{{ site.data.settings.email }}</span>
         </a>
@@ -37,7 +40,8 @@ Preferred language for the sessions:
           <span>{{ site.data.settings.whatsapp_display }}</span>
         </a>
       </div>
-      <p class="muted" style="margin-top:1.5rem">Your message stays between us.</p>
+      <p style="margin-top:1.8rem">If your application resonates, we begin with <strong>{{ site.data.settings.free_sessions }} free sessions</strong>, so that you can experience the work before deciding whether to continue.</p>
+      <p>All applications are treated with discretion and confidentiality.</p>
     </div>
     <figure class="portrait">
       <img src="/assets/images/verity-portrait.jpg" alt="A woman in a black and gold qipao, smiling" width="896" height="1200">
