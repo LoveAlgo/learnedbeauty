@@ -44,8 +44,22 @@ content:
       - { name: free_sessions, label: Number of free sessions (in words), type: string }
       - { name: fee, label: Mentorship fee, type: string }
       - { name: typical_sessions, label: Typical number of sessions, type: string }
+  - name: philosophy
+    label: Philosophy page
+    type: file
+    path: philosophy/index.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: page }
+      - { name: title, label: Title in browser tab, type: string }
+      - { name: heading, label: Heading, type: string }
+      - { name: description, label: Search engine description, type: text }
+      - { name: image, label: Image, type: image }
+      - { name: image_alt, label: Image description, type: string }
+      - { name: image_caption, label: Image caption, type: string }
+      - { name: image_side, type: string, hidden: true, default: left }
+      - { name: body, label: Text, type: rich-text }
   - name: about
-    label: Philosophy page (About)
+    label: About page
     type: file
     path: about/index.md
     fields:
@@ -55,5 +69,6 @@ content:
       - { name: description, label: Search engine description, type: text }
       - { name: image, label: Image, type: image }
       - { name: image_alt, label: Image description, type: string }
-      - { name: image_side, type: string, hidden: true, default: left }
+      - { name: image_caption, label: Image caption, type: string }
+      - { name: image_side, type: string, hidden: true, default: right }
       - { name: body, label: Text, type: rich-text }
