@@ -2,6 +2,32 @@ media:
   input: assets/images
   output: /assets/images
 content:
+  - name: home
+    label: Home page
+    type: file
+    path: index.html
+    fields:
+      - { name: layout, type: string, hidden: true, default: default }
+      - { name: title, label: Title in browser tab, type: string }
+      - { name: body, label: Page content (HTML), type: code, options: { format: html } }
+  - name: mentorship
+    label: Mentorship page
+    type: file
+    path: privatementorship/index.html
+    fields:
+      - { name: layout, type: string, hidden: true, default: default }
+      - { name: title, label: Title in browser tab, type: string }
+      - { name: description, label: Search engine description, type: text }
+      - { name: body, label: Page content (HTML), type: code, options: { format: html } }
+  - name: application
+    label: Application page
+    type: file
+    path: apply/index.html
+    fields:
+      - { name: layout, type: string, hidden: true, default: default }
+      - { name: title, label: Title in browser tab, type: string }
+      - { name: description, label: Search engine description, type: text }
+      - { name: body, label: Page content (HTML), type: code, options: { format: html } }
   - name: settings
     label: Contact and prices
     type: file
@@ -19,7 +45,7 @@ content:
       - { name: fee, label: Mentorship fee, type: string }
       - { name: typical_sessions, label: Typical number of sessions, type: string }
   - name: about
-    label: Philosophy page
+    label: Philosophy page (About)
     type: file
     path: about/index.md
     fields:
