@@ -28,6 +28,7 @@ His work unfolds across several interlinked projects exploring:
 - feminine beauty and embodiment ([Learned Beauty](/))
 - romantic compatibility ([Compalgo](https://www.compalgo.com))
 - place, belonging, and orientation ([Placealgo](https://www.placealgo.com))
-- narrative, imagination, and future societies ([Genève 2061](https://geneve2061.ch))
+- narrative, dreams, and future societies ([Grooters saga](https://thegrooters.com))
+- urban planning ([Geneva 2061](https://geneve2061.ch/en/))
 
 Learned Beauty is both a living research field and an educational platform. Private work informs the writing. Writing informs the work.
