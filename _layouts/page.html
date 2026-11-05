@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
+{% if page.image_side != "left" %}
 <section class="page-head">
   <div class="wrap">
     <h1>{{ page.heading | default: page.title }}</h1>
     {% if page.intro %}<p class="lead prose">{{ page.intro }}</p>{% endif %}
   </div>
 </section>
-<section class="section" style="padding-top:0">
-  <div class="wrap split" style="align-items:start">
+{% endif %}
+<section class="section"{% if page.image_side != "left" %} style="padding-top:0"{% endif %}>
+  <div class="wrap split{% if page.image_side == "left" %} reverse{% endif %}" style="align-items:start">
     <div class="prose">
+{% if page.image_side == "left" %}<h1>{{ page.heading | default: page.title }}</h1>
+{% if page.intro %}<p class="lead">{{ page.intro }}</p>{% endif %}{% endif %}
 {{ content }}
     </div>
     {% if page.image %}

@@ -148,6 +148,10 @@ figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-alig
 .page-head { padding: clamp(3rem, 6vw, 4.5rem) 0 clamp(2rem, 4vw, 3rem); }
 .page-head h1 { max-width: 16ch; }
 .prose h2:not(:first-child) { margin-top: 1.6em; }
+.prose h3:not(:first-child) { margin-top: 1.5em; }
+.principles { counter-reset: pr; list-style: none; padding: 0; margin: 0 0 1.4em; }
+.principles li { counter-increment: pr; position: relative; padding-left: 2rem; margin-bottom: .7rem; }
+.principles li::before { content: counter(pr) "."; position: absolute; left: 0; top: 0; font-family: var(--heading); font-style: italic; color: var(--gold); font-size: 1.2rem; }
 
 /* FAQ */
 .faq { max-width: 46rem; }
