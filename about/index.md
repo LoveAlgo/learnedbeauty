@@ -2,13 +2,13 @@
 layout: page
 title: About
 heading: About
-description: "Why a man mentors women in feminine beauty: the story behind
-  Learned Beauty and its founder, Henrik Hillerström."
 image: /assets/images/henrik-library.jpg
 image_alt: Henrik Hillerström reading in a wood-panelled library
 image_caption: Henrik, your mentor, and author of Grooters
-image_side: right
+image_side: left
+description: "Why a man mentors women in feminine beauty: the story behind Learned Beauty and its founder, Henrik Hillerström."
 ---
+
 For as long as I can remember, I (Henrik) have been quietly devoted to the question of beauty — especially feminine beauty — and with the question of what helps a woman truly flourish.
 
 At some point, this curiosity led me to study how professional stylists work. I expected to discover refined systems, deep understanding, and impeccable taste. Instead, what I found surprised me.
@@ -46,6 +46,7 @@ Learned Beauty was born from this realization.
 
 ## Who is Henrik
 
+
 Henrik Hillerström is a multidisciplinary entrepreneur and thinker with a lifelong dedication to beauty, intelligence, and human flourishing. Born in Australia to Swedish parents, raised in Geneva, and now based in the south of France, he brings a cultivated global perspective shaped by life across nine countries and dozens of homes.
 
 His education spans business administration (MBA, University of St. Gallen), urban and regional planning, architecture, and adult education. Professionally, he has worked in finance, entrepreneurship, research, and in the design of compatibility systems for relationships and place-based living.
@@ -57,12 +58,13 @@ What unifies his work is a simple conviction:
 
 With Learned Beauty, he integrates psychology, aesthetics, attraction dynamics, and cultivated taste into one elegant system: helping women become more radiant, confident, and quietly compelling through a masculine perspective grounded in good taste.
 
+Beauty is not a performance or a privilege — it is a learnable art, and one with tremendous power to transform individuals, relationships, and the world we share.
+
 ## His projects
 
 His work unfolds across several interlinked projects exploring:
 
 {: .star-list}
-
 - feminine beauty and embodiment ([Learned Beauty](/))
 - romantic compatibility ([Compalgo](https://www.compalgo.com))
 - place, belonging, and orientation ([Placealgo](https://www.placealgo.com))

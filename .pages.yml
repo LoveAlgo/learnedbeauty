@@ -70,5 +70,5 @@ content:
       - { name: image, label: Image, type: image }
       - { name: image_alt, label: Image description, type: string }
       - { name: image_caption, label: Image caption, type: string }
-      - { name: image_side, type: string, hidden: true, default: right }
+      - { name: image_side, type: string, hidden: true, default: left }
       - { name: body, label: Text, type: rich-text }

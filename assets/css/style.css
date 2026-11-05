@@ -198,3 +198,10 @@ figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-alig
   .site-nav { width: 100%; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Justified text on larger screens; left-aligned on mobile */
+@media (min-width: 861px) {
+  main p, main li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+  .closing p, .offer-note { hyphens: manual; -webkit-hyphens: manual; }
+  .closing p { text-align: center; }
+}
