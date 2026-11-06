@@ -184,6 +184,7 @@ figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-alig
 .site-footer li { margin-bottom: .3rem; }
 .site-footer a { color: rgba(244, 237, 224, 0.82); }
 .site-footer a:hover { color: #fff; }
+.footer-small a { margin-left: .8rem; }
 .footer-small { margin-top: 2.5rem; padding-top: 1.4rem; border-top: 1px solid rgba(244, 237, 224, .18); font-size: .95rem; }
 
 /* Responsive */

@@ -44,6 +44,9 @@ content:
       - { name: free_sessions, label: Number of free sessions (in words), type: string }
       - { name: fee, label: Mentorship fee, type: string }
       - { name: typical_sessions, label: Typical number of sessions, type: string }
+      - { name: legal_name, label: Legal name (Legal notice), type: string }
+      - { name: address, label: Business address (Legal notice), type: string }
+      - { name: siret, label: SIRET number (Legal notice), type: string }
   - name: philosophy
     label: Philosophy page
     type: file
