@@ -81,7 +81,6 @@ main img { border-radius: var(--radius); }
 
 /* Hero */
 .hero { padding: var(--page-top) 0 clamp(3rem, 6vw, 5rem); }
-.hero h1 { font-size: clamp(2.2rem, 3.6vw, 3.1rem); }
 .hero p { hyphens: manual; -webkit-hyphens: manual; }
 .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--col-gap); align-items: start; }
 .hero .sub { font-family: var(--text); font-size: clamp(1.3rem, 1.75vw, 1.45rem); line-height: 1.35; margin-bottom: .8rem; color: var(--cocoa); }
