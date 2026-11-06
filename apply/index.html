@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Application for private mentorship
-description: Apply for the Learned Beauty private mentorship by answering three reflection questions by email or WhatsApp.
+description: Apply for the Learned Beauty private mentorship by answering three reflection questions by email.
 ---
 {% capture mailbody %}Hello Henrik,
 
@@ -14,7 +14,7 @@ description: Apply for the Learned Beauty private mentorship by answering three 
 3. What is your biggest wish for yourself and for the world?
 
 
-Preferred language for the sessions:
+Preferred language for the sessions and our communication:
 {% endcapture %}
 <section class="page-head">
   <div class="wrap split" style="align-items:start">
@@ -29,23 +29,20 @@ Preferred language for the sessions:
         <li>What habits, patterns, or areas of your life do you sense may need refinement or change?</li>
         <li>What is your biggest wish for yourself and for the world?</li>
       </ol>
-      <p>Send your answers by email or WhatsApp, and let me know which language you would prefer for the sessions.</p>
+      <p>Send your answers by email, and let me know which language you would prefer for the sessions and our communication.</p>
       <div class="contact-ways">
         <a href="mailto:{{ site.data.settings.email }}?subject={{ "Application for private mentorship" | url_encode | replace: "+", "%20" }}&amp;body={{ mailbody | url_encode | replace: "+", "%20" }}">
-          <strong>By email</strong>
+          <strong>Send your application</strong>
           <span>{{ site.data.settings.email }}</span>
-        </a>
-        <a href="https://wa.me/{{ site.data.settings.whatsapp_number }}">
-          <strong>By WhatsApp</strong>
-          <span>{{ site.data.settings.whatsapp_display }}</span>
         </a>
       </div>
       <p style="margin-top:1.8rem">If your application resonates, we begin with <strong>{{ site.data.settings.free_sessions }} free sessions</strong>, so that you can experience the work before deciding whether to continue.</p>
       <p>All applications are treated with discretion and confidentiality.</p>
+      <p>For any preliminary questions about the application or the mentorship, you are welcome to contact me on <a href="https://wa.me/{{ site.data.settings.whatsapp_number }}">WhatsApp ({{ site.data.settings.whatsapp_display }})</a>.</p>
     </div>
     <figure class="portrait">
       <img src="/assets/images/aurora-silver.jpg" alt="Aurora in a silver dress seated at a candlelit bar" width="1045" height="1400">
-      <figcaption>Aurora, Books 1, 2, 3, 4</figcaption>
+      <figcaption>Aurora, Grooters Books 1, 2, 3, 4</figcaption>
     </figure>
   </div>
 </section>
