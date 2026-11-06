@@ -89,7 +89,7 @@ main img { border-radius: var(--radius); }
 figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-align: center; margin-top: .6rem; }
 .hero-figure img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
 .offer-note { margin-top: 2rem; padding-top: 1.3rem; border-top: 1px solid var(--line); }
-.note-label { text-decoration: underline; text-underline-offset: 3px; }
+
 
 /* Sections: one background, separated by space and a fine gold line */
 .section { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
