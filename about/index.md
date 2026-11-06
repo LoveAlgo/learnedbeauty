@@ -9,7 +9,7 @@ image_alt: Henrik Hillerström reading in a wood-panelled library
 image_caption: Henrik, your mentor, and author of Grooters
 image_side: left
 ---
-For as long as I can remember, I (Henrik) have been quietly devoted to the question of beauty: art, architecture, music, nature, and especially feminine beauty.
+For a long time, I (Henrik) have quietly devoted myself to the question of beauty: art, architecture, music, nature, and especially feminine beauty.
 
 At some point, this curiosity led me to study how professional stylists work. I expected to discover refined systems, deep understanding, and impeccable taste. Instead, what I found surprised me.
 
