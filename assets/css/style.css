@@ -14,6 +14,7 @@
   --radius: 18px;
   --wrap: 1140px;
   --col-gap: clamp(2rem, 6vw, 5rem);
+  --page-top: clamp(3rem, 6vw, 4.5rem);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -79,9 +80,11 @@ p { margin: 0 0 1em; }
 main img { border-radius: var(--radius); }
 
 /* Hero */
-.hero { padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(3rem, 6vw, 5rem); }
-.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--col-gap); align-items: center; }
-.hero .sub { font-family: var(--text); font-size: clamp(1.4rem, 2vw, 1.65rem); line-height: 1.35; margin-bottom: .8rem; color: var(--cocoa); }
+.hero { padding: var(--page-top) 0 clamp(3rem, 6vw, 5rem); }
+.hero h1 { font-size: clamp(2.2rem, 3.6vw, 3.1rem); }
+.hero p { hyphens: manual; -webkit-hyphens: manual; }
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--col-gap); align-items: start; }
+.hero .sub { font-family: var(--text); font-size: clamp(1.3rem, 1.75vw, 1.45rem); line-height: 1.35; margin-bottom: .8rem; color: var(--cocoa); }
 .hero .details { max-width: none; }
 .hero-figure { margin: 0; }
 figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-align: center; margin-top: .6rem; }
@@ -147,7 +150,8 @@ figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-alig
 .closing .actions { justify-content: center; }
 
 /* Inner pages */
-.page-head { padding: clamp(3rem, 6vw, 4.5rem) 0 clamp(2rem, 4vw, 3rem); }
+.page-head { padding: var(--page-top) 0 clamp(2rem, 4vw, 3rem); }
+.page-top { padding-top: var(--page-top); }
 .page-head h1 { max-width: 16ch; }
 .prose h2:not(:first-child) { margin-top: 1.6em; }
 .prose h3:not(:first-child) { margin-top: 1.5em; }
@@ -208,6 +212,7 @@ figcaption { font-style: italic; font-size: 1rem; color: var(--cocoa); text-alig
 @media (min-width: 861px) {
   main p, main li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
   .closing p, .offer-note { hyphens: manual; -webkit-hyphens: manual; }
+
   .closing p { text-align: center; }
   .hero .sub { text-align: left; }
 }

@@ -9,7 +9,7 @@ layout: default
   </div>
 </section>
 {% endunless %}
-<section class="section"{% unless page.image %} style="padding-top:0"{% endunless %}>
+<section class="section{% if page.image %} page-top{% endif %}"{% unless page.image %} style="padding-top:0"{% endunless %}>
   <div class="wrap split{% if page.image_side == "left" %} reverse{% endif %}" style="align-items:start">
     <div class="prose">
 {% if page.image %}<h1>{{ page.heading | default: page.title }}</h1>
