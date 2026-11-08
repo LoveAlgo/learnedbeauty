@@ -70,5 +70,6 @@ His work unfolds across several interlinked projects exploring:
 - place, belonging, and orientation ([Placealgo](https://www.placealgo.com))
 - narrative, dreams, and future societies ([Grooters saga](https://thegrooters.com))
 - urban planning ([Geneva 2061](https://geneve2061.ch/en/))
+- holistic health ([Healfi](https://healfi.me))
 
 Learned Beauty is both a living research field and an educational platform. Private work informs the writing. Writing informs the work.
